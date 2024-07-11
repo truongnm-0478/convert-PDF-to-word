@@ -1,0 +1,128 @@
+/* General styles */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Header styles */
+  header {
+    padding: 15px;
+    background-color: #f5f5f5; /* Light background color */
+    display: flex; /* Allow links to be side-by-side */
+    justify-content: space-between; /* Space links evenly */
+    align-items: center; /* Align links vertically */
+  }
+  
+  header a {
+    color: #333; /* Text color */
+    text-decoration: none; /* Remove underline */
+    margin-right: 15px; /* Spacing between links */
+  }
+  
+  /* Container and main content styles */
+  .container {
+    display: flex; /* Center content horizontally */
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Ensure content fills viewport height */
+    background-color: #f0f0f0; /* Light gray background */
+  }
+  
+  .main {
+    width: 800px; /* Adjust content width */
+    padding: 30px;
+    border-radius: 5px;
+    background-color: #fff; /* White background */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Light shadow */
+  }
+  
+  /* Projects section styles */
+  .projects {
+    border: 1px solid #ddd; /* Optional border for projects section */
+    border-radius: 5px; /* Round corners */
+    padding: 20px;
+  }
+  
+  .sub-head {
+    display: flex;
+    justify-content: space-between; /* Align heading and button horizontally */
+    align-items: center; /* Align elements vertically */
+    margin-bottom: 15px;
+  }
+  
+  .sub-head h2 {
+    margin: 0; /* Remove default margin */
+  }
+  
+  .reset-link {
+    text-decoration: none; /* Remove underline from button */
+    color: #333; /* Text color */
+  }
+  
+  .reset-link a {
+    color: inherit; /* Inherit color from parent */
+  }
+  
+  /* Table styles */
+  table {
+    width: 100%;
+    border-collapse: collapse; /* Remove space between table cells */
+  }
+  
+  th, td {
+    padding: 10px;
+    border: 1px solid #ddd; /* Table cell borders */
+    text-align: left; /* Left-align content by default */
+  }
+  
+  th {
+    background-color: #f1f1f1; /* Light gray background for table headers */
+    font-weight: bold;
+  }
+  
+  .id, .name {
+    width: 20%; /* Adjust width for specific columns */
+  }
+  
+  .download {
+    width: 30%; /* Adjust width for download column */
+  }
+  
+  /* List styles */
+  ul {
+    list-style: none; /* Remove bullet points */
+    padding: 0;
+    margin: 0;
+  }
+  
+  ul li {
+    margin-bottom: 5px; /* Spacing between list items */
+  }
+  
+  /* Note styles */
+  h2 {
+    margin-top: 30px; /* Spacing above notes */
+  }
+  
+  /* Custom styles for status links */
+  .download a {
+    color: inherit; /* Inherit text color from parent */
+  }
+  
+  .download a:hover {
+    text-decoration: underline; /* Underline on hover */
+  }
+  
+  .download a[style*="color: red;"] {
+    color: red; /* Red color for specific status */
+  }
+  
+  .download a[style*="color: green;"] {
+    color: green; /* Green color for specific status */
+  }
+  
+  .download a[style*="color: blue;"] {
+    color: blue; /* Blue color for specific status */
+  }
+  

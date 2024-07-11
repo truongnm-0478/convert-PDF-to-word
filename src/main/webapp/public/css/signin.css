@@ -1,0 +1,91 @@
+/* General styles */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styles */
+header {
+    /* Add styles for the header section (optional) */
+    /* You can set background color, padding, etc. */
+}
+
+/* Container and main content styles */
+.container {
+    display: flex; /* Center content horizontally */
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Ensure content fills viewport height */
+    background-color: #f0f0f0; /* Light gray background (optional) */
+}
+
+.main {
+    width: 400px; /* Adjust content width */
+    padding: 30px;
+    border-radius: 5px;
+    background-color: #fff; /* White background */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Light shadow (optional) */
+}
+
+/* Form styles */
+.form {
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+}
+
+.heading {
+    text-align: center; /* Center align heading */
+    margin-bottom: 15px; /* Spacing after heading */
+}
+
+.spacer {
+    height: 10px; /* Optional spacer element */
+}
+
+.row {
+    margin-bottom: 10px; /* Spacing between form rows */
+}
+
+.col-sm-2 {
+    width: 20%; /* Adjust width for label column (Bootstrap class) */
+}
+
+.col-sm-10 {
+    width: 80%; /* Adjust width for input column (Bootstrap class) */
+}
+
+.form-label {
+    font-weight: bold; /* Bold text for labels */
+}
+
+.form-control {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    width: 100%; /* Ensure input field fills available space */
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: #4CAF50; /* Green button */
+    color: #fff; /* White text */
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: 15px; /* Spacing after form elements */
+}
+
+.btn:hover {
+    background-color: #3e8e41; /* Darker green on hover */
+}
+
+.txt-right {
+    text-align: right; /* Right align "Đăng nhập" link */
+    margin-top: 10px; /* Spacing above link */
+}
+
+.txt-right a {
+    color: #333; /* Text color for link */
+    text-decoration: none; /* Remove underline */
+}
